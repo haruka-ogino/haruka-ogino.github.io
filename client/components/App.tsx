@@ -12,11 +12,11 @@ function App() {
       <Nav />
       <About />
       <Projects />
-      {/* <PDFDownloadLink document={<CV />} fileName="CV">
+      <PDFDownloadLink document={<CV />} fileName="CV">
         {({ loading }) =>
           loading ? <button>Loading CV...</button> : <button>Download</button>
         }
-      </PDFDownloadLink> */}
+      </PDFDownloadLink>
     </div>
   )
 }
