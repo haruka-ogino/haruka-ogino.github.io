@@ -20,7 +20,8 @@ export default function Home() {
           <p>Hi there, I&apos;m</p>
           <h1>Haruka Ogino</h1>
           <p>Full-stack Developer</p>
-          <p>You have landed on my old portfolio! This has been superseded by my <a href='https://haruka-ogino.vercel.app/'>new portfolio.</a></p>
+          <p>You have landed on my old portfolio!</p>
+          <p>This has been superseded by my <Link to='https://haruka-ogino.vercel.app/'>new portfolio.</Link></p>
         </div>
         <aside className="sections">
           <button onClick={() => handleClick('about')}>About Me</button>
